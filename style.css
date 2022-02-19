@@ -81,15 +81,18 @@ body {
 
 .item-1 {
   background-color: #b4bf35;
-  grid-column-start: 1;
+  /* grid-column-start: 1; */
   /* grid-column-end: 2; */
   /* grid-column-end: 5; */
-  grid-column-end: span 2;
+  /* grid-column-end: span 2; */
 
-  grid-row-start: 1;
+  /* grid-row-start: 1; */
   /* grid-row-end: 3; */
   /* grid-row-end: 4; */
-  grid-row-end: span 2;
+  /* grid-row-end: span 2; */
+
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
 }
 
 .item-2 {
