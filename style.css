@@ -31,12 +31,18 @@ body {
   /* justify-items: stretch; */
   /* justify-items: start; */
   /* justify-items: end; */
-  justify-items: center;
+  /* justify-items: center; */
 
   /* align-items: stretch; */
   /* align-items: start; */
   /* align-items: end; */
-  align-items: center;
+  /* align-items: center; */
+
+  /* place-items: start end; */
+  /* place-items: end start; */
+  /* place-items: start; */
+  /* place-items: end; */
+  place-items: center;
 }
 
 .grid-item {
