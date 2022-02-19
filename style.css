@@ -97,6 +97,10 @@ body {
 
 .item-2 {
   background-color: #b95f21;
+  /* justify-self: stretch; */
+  /* justify-self: start; */
+  /* justify-self: end; */
+  justify-self: center;
 }
 
 .item-3 {
