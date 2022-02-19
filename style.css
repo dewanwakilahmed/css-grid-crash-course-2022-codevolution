@@ -100,12 +100,18 @@ body {
   /* justify-self: stretch; */
   /* justify-self: start; */
   /* justify-self: end; */
-  justify-self: center;
+  /* justify-self: center; */
 
   /* align-self: stretch; */
   /* align-self: start; */
   /* align-self: end; */
-  align-self: center;
+  /* align-self: center; */
+
+  /* place-self: start end; */
+  /* place-self: end start; */
+  /* place-self: start; */
+  /* place-self: end; */
+  place-self: center;
 }
 
 .item-3 {
