@@ -4,7 +4,7 @@ body {
 
 .container {
   border: 6px solid black;
-  height: 400px;
+  height: 800px;
 
   /* display: inline-grid; */
   display: grid;
@@ -21,7 +21,8 @@ body {
   /* grid-template-rows: repeat(3, 100px) 200px; */
   /* grid-template-rows: repeat(3, 1fr); */
 
-  grid-template: repeat(3, 1fr) / repeat(3, minmax(200px, 1fr));
+  /* grid-template: repeat(3, 1fr) / repeat(3, minmax(200px, 1fr)); */
+  grid-template: repeat(3, 200px) / repeat(3, 200px);
 
   /* column-gap: 20px; */
   /* row-gap: 30px; */
@@ -42,7 +43,14 @@ body {
   /* place-items: end start; */
   /* place-items: start; */
   /* place-items: end; */
-  place-items: center;
+  /* place-items: center; */
+
+  /* justify-content: start; */
+  /* justify-content: end; */
+  /* justify-content: center; */
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
+  justify-content: space-evenly;
 }
 
 .grid-item {
